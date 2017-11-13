@@ -1,0 +1,58 @@
+#header .content .dbg-box{
+	float: left;
+}
+#dimgbox{
+	width: 100%;
+	min-width: 1220px;
+	height: 180px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 40px;
+	left: 0;
+	display: none;
+}
+#dimgbox .dimgtitle{
+	height: 40px;
+	width: 100%;
+	border-bottom: 2px #cccccc solid;
+}
+#dimgtitle-con{
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	/*background: red;*/
+	line-height: 40px;
+}
+#title-1{
+	float: left;
+}
+#title-1 button{
+	padding: 10px 20px;
+	background: blue;
+	color: #ffffff;
+}
+#title-2{
+	float: right;
+}
+#title-2 button{
+	color: #ffffff;
+}
+#title-2 button:hover{
+	color: #ff0000;
+}
+#imglist{
+	width: 900px;
+	height: 65px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+#imglist img{
+	width: 100px;
+}
+#imglist .imgitem img:hover{
+	cursor: pointer;
+}
+.imgitem{
+	float: left;
+	margin-right: 5px;
+}

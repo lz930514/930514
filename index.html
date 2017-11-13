@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>仿百度换肤功能制作</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/skin-change.css" />
+		<script type="text/javascript" src="js/jquery-3.2.1/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-3.2.1/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/layer-3.1.0/layer.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/skin-change.js"></script>
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="content">
+				<div class="dbg-box">
+					<button onclick="ShowImgBox()">换肤</button>
+				</div>
+				<div>
+					<button onclick="ShowRegBox()">注册</button>
+				</div>
+				<div>
+					<button id="blogin" onclick="ShowLoginBox()">登录</button>
+				</div>
+			</div>
+		</header>
+		
+		<div id="loginbox" class="box-content">
+			<div class="login-item">
+				<input type="text" id="txtUserName" value="" placeholder="请输入用户名" />
+			</div>
+
+			<div class="login-item">
+				<input type="password" id="txtUserPassword" value="" placeholder="请输入密码" />
+			</div>
+
+			<div class="login-item">
+				<button onclick="Login()">登 录</button>
+			</div>
+		</div>
+
+		<div id="regbox" class="box-content">
+			<div class="login-item">
+				<input type="text" id="userName" value="" placeholder="请输入用户名" />
+			</div>
+
+			<div class="login-item">
+				<input type="password" id="userPassword" value="" placeholder="请输入密码" />
+			</div>
+
+			<div class="login-item">
+				<input type="tel" id="userTel" value="" placeholder="请输入电话号码" />
+			</div>
+
+			<div class="login-item">
+				<input type="email" id="userEmail" value="" placeholder="请输入邮箱地址" />
+			</div>
+
+			<div class="login-item">
+				<button onclick="reg()">注 册</button>
+			</div>
+		</div>
+
+		<div id="dimgbox">
+			<div class="dimgtitle">
+				<div id="dimgtitle-con">
+					<div id="title-1">
+						<button>热门</button>
+					</div>
+					<div id="title-2">
+						<button onclick="hideImgBox()">收起</button>
+					</div>
+				</div>
+				<div id="imglist">
+					<div class="imgitem"><img src="img/timg1.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg2.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg3.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg4.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg5.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg6.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg7.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg8.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg9.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg10.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg11.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg12.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg13.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg14.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg15.jpeg" /></div>
+					<div class="imgitem"><img src="img/timg16.jpeg" /></div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
